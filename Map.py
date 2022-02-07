@@ -1,6 +1,4 @@
 import pandas as pd 
-#import geopandas as gpd 
-#import math 
 import folium
 from folium.plugins import LocateControl
 
