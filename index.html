@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_6958f58616a941ff96742e48b31e5748 {
+                #map_bc6b6a6eb7e04865a1823f82496c33d5 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -37,15 +37,15 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_6958f58616a941ff96742e48b31e5748" ></div>
+            <div class="folium-map" id="map_bc6b6a6eb7e04865a1823f82496c33d5" ></div>
         
 </body>
 <script>    
     
-            var map_6958f58616a941ff96742e48b31e5748 = L.map(
-                "map_6958f58616a941ff96742e48b31e5748",
+            var map_bc6b6a6eb7e04865a1823f82496c33d5 = L.map(
+                "map_bc6b6a6eb7e04865a1823f82496c33d5",
                 {
-                    center: [55.192192, -1.941678],
+                    center: [55.129074, -1.912727],
                     crs: L.CRS.EPSG3857,
                     zoom: 10,
                     zoomControl: true,
@@ -57,15 +57,148 @@
 
         
     
-            var tile_layer_e75fc7bdc26848f2b5d709082e5f82be = L.tileLayer(
+            var tile_layer_441d72dc0275405a8fa061d5fbe69dfd = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_6958f58616a941ff96742e48b31e5748);
+            ).addTo(map_bc6b6a6eb7e04865a1823f82496c33d5);
         
     
-            var locate_control_38b20d67556c444eac6347d798c5ed55 = L.control.locate(
+            var feature_group_69b106bb4f174b9196fb169d01b42f39 = L.featureGroup(
                 {}
-            ).addTo(map_6958f58616a941ff96742e48b31e5748);
+            ).addTo(map_bc6b6a6eb7e04865a1823f82496c33d5);
+        
+    
+            var marker_c3e2811cc2534a38a2d0893ab4056a16 = L.marker(
+                [55.128521, -1.920929],
+                {"fill": true, "fillOpacity": 0.7}
+            ).addTo(feature_group_69b106bb4f174b9196fb169d01b42f39);
+        
+    
+        var popup_39533ef6856848f0bdef2b15731ba310 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a026b8ed2190476a91ae622a76ddefeb = $(`<div id="html_a026b8ed2190476a91ae622a76ddefeb" style="width: 100.0%; height: 100.0%;">Roadside Boulder</div>`)[0];
+            popup_39533ef6856848f0bdef2b15731ba310.setContent(html_a026b8ed2190476a91ae622a76ddefeb);
+        
+
+        marker_c3e2811cc2534a38a2d0893ab4056a16.bindPopup(popup_39533ef6856848f0bdef2b15731ba310)
+        ;
+
+        
+    
+    
+            var marker_18d655ded4d44f63ae19e34773f27104 = L.marker(
+                [55.132803, -1.921006],
+                {"fill": true, "fillOpacity": 0.7}
+            ).addTo(feature_group_69b106bb4f174b9196fb169d01b42f39);
+        
+    
+        var popup_a9a8fb79bde541678e0e05067396d4d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4202a47ceb0e43648e0b70783031270c = $(`<div id="html_4202a47ceb0e43648e0b70783031270c" style="width: 100.0%; height: 100.0%;">The Cob Boulder</div>`)[0];
+            popup_a9a8fb79bde541678e0e05067396d4d8.setContent(html_4202a47ceb0e43648e0b70783031270c);
+        
+
+        marker_18d655ded4d44f63ae19e34773f27104.bindPopup(popup_a9a8fb79bde541678e0e05067396d4d8)
+        ;
+
+        
+    
+    
+            var marker_4902215a9fb64e6a9c113e8c30bbd9a6 = L.marker(
+                [55.133276, -1.921425],
+                {"fill": true, "fillOpacity": 0.7}
+            ).addTo(feature_group_69b106bb4f174b9196fb169d01b42f39);
+        
+    
+        var popup_45f2c78cf95d487689207040968d43b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecf91a9005a643e0b7e5cfc4779014b7 = $(`<div id="html_ecf91a9005a643e0b7e5cfc4779014b7" style="width: 100.0%; height: 100.0%;">Neb Boulder</div>`)[0];
+            popup_45f2c78cf95d487689207040968d43b1.setContent(html_ecf91a9005a643e0b7e5cfc4779014b7);
+        
+
+        marker_4902215a9fb64e6a9c113e8c30bbd9a6.bindPopup(popup_45f2c78cf95d487689207040968d43b1)
+        ;
+
+        
+    
+    
+            var feature_group_84629e1eb1274acfa72b5a5db9bd50ce = L.featureGroup(
+                {}
+            ).addTo(map_bc6b6a6eb7e04865a1823f82496c33d5);
+        
+    
+            var marker_ec17eb5a24b441dba0ff1957e7c1ea20 = L.marker(
+                [55.123172, -1.922985],
+                {"fill": true, "fillOpacity": 0.7}
+            ).addTo(feature_group_84629e1eb1274acfa72b5a5db9bd50ce);
+        
+    
+            var icon_62730cc6baf54557b9f454e942f19e95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-car", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ec17eb5a24b441dba0ff1957e7c1ea20.setIcon(icon_62730cc6baf54557b9f454e942f19e95);
+        
+    
+        var popup_7e4ec2ec48524ae899416a1112fa6de1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a60f51ec71584799b8e2ff146bf4da31 = $(`<div id="html_a60f51ec71584799b8e2ff146bf4da31" style="width: 100.0%; height: 100.0%;">Parking south</div>`)[0];
+            popup_7e4ec2ec48524ae899416a1112fa6de1.setContent(html_a60f51ec71584799b8e2ff146bf4da31);
+        
+
+        marker_ec17eb5a24b441dba0ff1957e7c1ea20.bindPopup(popup_7e4ec2ec48524ae899416a1112fa6de1)
+        ;
+
+        
+    
+    
+            var marker_37264b5d668f478588ed4a9fd24bd890 = L.marker(
+                [55.135222, -1.902695],
+                {"fill": true, "fillOpacity": 0.7}
+            ).addTo(feature_group_84629e1eb1274acfa72b5a5db9bd50ce);
+        
+    
+            var icon_71a84de40fd94d9d99f57f16e59dc2a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-car", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_37264b5d668f478588ed4a9fd24bd890.setIcon(icon_71a84de40fd94d9d99f57f16e59dc2a4);
+        
+    
+        var popup_f5013d5af9664899942169faf85e10c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4b078f4f0034759a15c8d9b76e58445 = $(`<div id="html_f4b078f4f0034759a15c8d9b76e58445" style="width: 100.0%; height: 100.0%;">Parking north</div>`)[0];
+            popup_f5013d5af9664899942169faf85e10c7.setContent(html_f4b078f4f0034759a15c8d9b76e58445);
+        
+
+        marker_37264b5d668f478588ed4a9fd24bd890.bindPopup(popup_f5013d5af9664899942169faf85e10c7)
+        ;
+
+        
+    
+    
+            var layer_control_f5a2dc02028948d688ad93921f843ed2 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_441d72dc0275405a8fa061d5fbe69dfd,
+                },
+                overlays :  {
+                    "Boulders" : feature_group_69b106bb4f174b9196fb169d01b42f39,
+                    "Parking" : feature_group_84629e1eb1274acfa72b5a5db9bd50ce,
+                },
+            };
+            L.control.layers(
+                layer_control_f5a2dc02028948d688ad93921f843ed2.base_layers,
+                layer_control_f5a2dc02028948d688ad93921f843ed2.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_bc6b6a6eb7e04865a1823f82496c33d5);
+        
+    
+            var locate_control_b93d0116682d44babd8e2f4a1edc698e = L.control.locate(
+                {}
+            ).addTo(map_bc6b6a6eb7e04865a1823f82496c33d5);
             
         
 </script>
